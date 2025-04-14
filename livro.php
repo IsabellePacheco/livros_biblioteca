@@ -1,10 +1,8 @@
 <?php
-// defina classe chamada aluno
+
 
 class Livro {
-    // criar uma propriedade privada (encapsulamento) chamada $livros
-    // essa propriedade é um array que armazena dados de bibliotecas.
-    // cada aluno é representado por array associativo com titulo, autor e ano de publicação
+
 
     private $livros =[
         ['titulo' => 'Dom Casmurro', 'autor' => 'Machado de Assis' , 'ano' => 1899],
@@ -15,8 +13,7 @@ class Livro {
         
     ];
 
-    // define um metodo publico chamado listarLivros.
-    // esse metodo serve para listar "retornar" o conteudo do array $livros
+
     public function editarLivros(){
         return $this ->livros;
     }
